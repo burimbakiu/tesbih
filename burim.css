@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("pexels-ahmed-aqtai-2233416.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+button {
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+#increment-btn {
+  background: linear-gradient(to bottom, #17aa12 5%, #46f062 100%);
+  background-color: #17aa12;
+  border: 2px solid #0b9248;
+}
+#increment-btn:hover {
+  background: linear-gradient(to bottom, #46f062 5%, #17aa12 100%);
+  background-color: #46f062;
+}
+#increment-btn:active {
+  position: relative;
+  bottom: 2px;
+}
+
+#reset-btn {
+  background: linear-gradient(to bottom, #eb2311 5%, #f04646 100%);
+  background-color: #eb2311;
+  border: 2px solid #920b0b;
+}
+#reset-btn:hover {
+  background: linear-gradient(to bottom, #f04646 5%, #eb2311 100%);
+  background-color: #f04646;
+}
+#reset-btn:active {
+  position: relative;
+  bottom: 2px;
+}
+
+#count-el {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.checkpoint1 {
+  color: darkgreen;
+}
+
+#plusBtn {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#resetBtn {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.dropdown {
+  padding: 20px;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: #0b9248;
+  color: #fff;
+}
+
+/*_____________________________________________________________________________*/
